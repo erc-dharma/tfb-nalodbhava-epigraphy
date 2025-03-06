@@ -83,7 +83,7 @@
             </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
-            <change who="part:amwb" when=""></change>
+            <change who="part:amwb" when="2025-01-22">Creation of the file</change>
             <!-- replace this by a line that has you as @who, that has the @date on which you finished the first basic encoding of the file, and that has the following description of what was finished on that date: "Initial encoding of the file." Then add a <change> entry for each significant change to the file. -->
         </revisionDesc>
     </teiHeader>
@@ -91,45 +91,78 @@
       <body>
          <div type="edition" xml:lang="san-Latn"><!-- update the @xml:lang value, see EGD §7.2-->
             <!--edition encoded as per EGD §§2−7-->
-             <pb n="1v"/>
+             <pb n="1v"/><!-- text encoded from Sircar's edition EI34 -->
                          <p>
                   <lb 
-n="1"/><lb 
-n="2"/><lb 
-n="3"/><lb 
-n="4"/><lb 
-n="5"/><lb 
-n="6"/><lb 
-n="7"/><lb 
-n="8"/><lb 
-n="9"/><lb 
-n="10"/><lb 
-n="11"/><lb 
-n="12"/><lb 
-n="13"/><lb 
-n="14"/><lb 
-n="15"/><lb 
-n="16"/><lb 
-n="17"/><lb 
-n="18"/><lb 
-n="19"/><lb 
-n="20"/><lb 
-n="21"/><lb 
-n="22"/><lb 
-n="23"/><lb 
-n="24"/><lb 
-n="25"/><lb 
-n="26"/><lb 
-n="27"/><lb 
-n="28"/>
+n="1"/>siddham svasti <placeName>bhimap<choice><sic>ū</sic><corr>u</corr></choice>rāt</placeName> bhagavataś carācara-guro<supplied reason="omitted">ḥ</supplied> sa-ka<supplied reason="omitted">la</supplied>-śaśāṅka-śekha<lb 
+n="2" break="no"/>ra-dharasy<choice><sic>ā</sic><corr>a</corr></choice> sthity<choice><sic>o</sic><corr>u</corr></choice>tpati-pralaya-kāraṇa-hetu-śrī-<surplus>r</surplus>yamaliṅgeśvara-bhaṭṭā<lb 
+n="3" break="no"/>rakasya caraṇa kamalārādhanāv<surplus>y</surplus>āp<supplied reason="omitted">t</supplied>a-puṇya-nica<supplied reason="omitted">yaḥ</supplied> s<supplied reason="omitted">v</supplied>a-śakti-<choice><sic>sus</sic><corr>traya</corr></choice>-praka<lb 
+n="4" break="no"/><supplied reason="omitted">r</supplied>ṣ<<choice>sic>a</sic><corr>ai</corr></choice>r anurañjitāśeṣa-sāmanta-cakra<supplied reason="omitted">ḥ</supplied> sva-bhuja-<choice><orig>v</orig><reg>b</reg></choice>ala-parākramākrā<lb 
+n="5" break="no"/>nta-sakala-<placeName>khiḍḍiraśṛṅga</placeName>-maṇḍal<supplied reason="omitted">ar</supplied>ājye para<choice><sic>p</sic><corr>m</corr></choice>a-māheśvaro mātā<lb 
+n="6" break="no"/>pitṛ-pādānudhyāta<supplied reason="omitted">ḥ</supplied> nala-vaṅśodbhava<supplied reason="omitted">ḥ</supplied> kula-kamalā<supplied reason="omitted">la</supplied>ṅkāra-bh<choice><sic>u</sic><corr>ū</corr></choice>to mahārā<lb 
+n="7" break="no"/>jādhirāja-parameśvara-śrī-<persName>bhīmasena</persName>devaḥ kuśal<choice><sic>iḥ</sic><corr>ī</corr></choice> kama<supplied reason="omitted">ṇ</supplied>ḍula
+                             <pb n="2r" break="no"/><lb 
+n="8" break="no"/>pāṭṭ<choice><sic>a</sic><corr>e</corr></choice> r<choice><orig>v</orig><reg>b</reg></choice>rāṣṭrak<choice><sic>u</sic><corr>ū</corr></choice>ṭa-<choice><orig>v</orig><reg>b</reg></choice>ṛhad-bhogi-bhogi<lb 
+n="9" break="no"/>p<supplied reason="omitted">r</supplied>amukhān yathā-nivāsino viṣaya-janapādā<choice><sic>ḥ</sic><corr>n</corr></choice> s<choice><sic>ā</sic><corr>a</corr></choice>maādiśati cānyaT<lb 
+n="10"/>viditam ast<choice><sic>ū</sic><corr>u</corr></choice> bhavatā<choice><sic>ḥ</sic><corr>m</corr></choice> etad-<surplus>vi</surplus>viṣaya-sam<choice><orig>v</orig><reg>b</reg></choice>addha-<placeName>k<choice><sic>ū</sic><corr>u</corr></choice>rmatalā</placeName>-grāmo 'yam<g type="ddanda">.</g> bh<choice><sic>ā</sic><corr>a</corr></choice>ṭṭa<lb 
+n="11" break="no"/>pājū<choice><sic>neḥ</sic><corr>naye</corr></choice><!-- Caution jū is a corrected akṣara and written on an original ju --> napatidito 'smābhi<supplied reason="omitted">ḥ</supplied> <persName>Agismāmi</persName>-<choice><sic>śū</sic><corr>su</corr></choice>ta-<persName>Aditya</persName>de<lb 
+n="12" break="no"/>vasya <choice><sic>ś</sic><corr>s</corr></choice>uta-bh<choice><sic>ā</sic><corr>a</corr></choice>ṭṭa-pājūna<!-- seems to be erased --><supplied reason="omitted">ye</supplied> kā<choice><sic>ṣa</sic><corr>śya</corr></choice>pa-gotrāyāvacchanupravara nodrūvavacchā<lb 
+n="13" break="no"/>nu<surplus>Anu</surplus>pravaraḥ mātā-pitror āt<choice><sic>nyan</sic><corr>mana</corr></choice>ś ca puṇyābhirvṛddhaye vi<choice><sic>ś</sic><corr>ṣ</corr></choice><lb 
+n="14" break="no"/>va-saṅkrāntyā<choice><sic>ḥ</sic><corr>ṁ</corr></choice> r<choice><sic>u</sic><corr>ū</corr></choice>pya-p<supplied reason="omitted">a</supplied>lāni sapta <num value="7">7</num> kacchikṛta<!-- erased may be aṅgīkṛtya or svīkṛtya --> salila-dhārā-purassa
+                             <pb n="2v" break="no"/><lb 
+n="15" break="no"/>reṇa can<choice><sic>t</sic><corr>d</corr></choice>rārkka-sthityā pratipādito 'smābhir yata<choice><sic>tkālaḥ</sic><corr>s tat</corr></choice> kālāntare<choice><orig>n</orig><reg>ṇ</reg></choice>a<lb 
+n="16"/>k<choice><sic>au</sic><corr>ai</corr></choice>ścid asmad-uparodhād dharmma-g<sic>o</sic><corr>au</corr>ravāt na c<surplus>ch</surplus>a v<surplus>y</surplus>ādhā karaṇīy<choice><sic>a</sic><corr>ā</corr></choice> tathā<lb 
+n="17"/>ca paṭhyate mānavīye utṁñ ca dharmmaśāstre</p>
+             <lg met="anuṣṭubh"><!-- best_st0023 -->      
+            <l n="a"><choice><orig>v</orig><reg>b</reg></choice>ahubhir vvasudhā dat<supplied reason="omitted">t</supplied>ā</l>
+            <l n="b">rājabhi<lb 
+n="18" break="no"/>s sagarādibhi<choice><orig>r</orig><reg>ḥ</reg></choice></l>
+            <l n="c">yasya yasya yadā bh<choice><sic>u</sic><corr>ū</corr></choice>mis</l>
+            <l n="d">tas<choice><sic>ā</sic><corr>ya</corr></choice> tasya tadā<lb 
+n="19"/>phalaṁ</l>
+                       </lg>
+             <lg met="anuṣṭubh"><!-- best_st0132_00 -->
+                        <l n="a">sva-dat<supplied reason="omitted">t</supplied>āṁ para-dat<supplied reason="omitted">t</supplied>āṁ vā</l>
+                        <l n="b">yo hared vasundharāṁ</l>
+                        <l n="c">sa viṣṭhāyāṁ kr̥mi<supplied reason="omitted">r</supplied> bh<choice><sic>u</sic><corr>ū</corr></choice>tvā</l>
+                        <l n="d"><lb 
+n="20"/>pitr̥bhis sa<choice><sic>bh</sic><corr>h</corr></choice>a pacyate<g type="ddanda">.</g></l>
+                    </lg>
+             <lg met="anuṣṭubh"><!-- best_st0085 -->
+                        <l n="a">mā bhūd <supplied reason="omitted">a</supplied>-phala-śaṅkā va<supplied reason="omitted">ḥ</supplied></l>
+                        <l n="b">para-dat<supplied reason="omitted">t</supplied>eti pārthivā<supplied reason="omitted">ḥ</supplied></l>
+                        <l n="c"><lb 
+n="21"/>sva-dānāt <choice><sic>pā</sic><corr>pha</corr></choice>lam ānantya<supplied reason="omitted">ṁ</supplied></l>
+                        <l n="d">para-dattānupālane</l>
+                        </lg>
+             <lg met="anuṣṭubh"><!-- best_st0123ab -->
+                   <l n="a">saṣṭi-varṣa–<supplied reason="omitted">sahasrā</supplied>ṇi</l>
+                   <l n="b"><surplus>rgga</surplus><lb 
+n="22"/>svargge modati bhūmidaḥ</l>
+                   <l n="c">Ākṣeptā cānumantā ca</l>
+                   <l n="d">tān<choice><sic>ai</sic><corr>y e</corr></choice>va nara<lb 
+n="23" break="no"/>kam vaj<choice><sic>etiḥ</sic><corr>ret</corr></choice></l>
+               </lg>
+             <lg met="puṣpitāgrā"><!-- best_st0071 -->
+                    <l n="a">Iti kamala-dalām<choice><orig>v</orig><reg>b</reg></choice>u-<choice><orig>v</orig><reg>b</reg></choice>indu-llolāṁ</l>
+                    <l n="b">śriyaṁ Anucintya ma<lb 
+n="24" break="no"/>nuṣya-jīvitaṁ <supplied reason="omitted">ca</supplied></l>
+                    <l n="c">sakalam idam udāhrārīta <choice><orig>v</orig><reg>b</reg></choice>u<supplied reason="omitted">d</supplied>dhvā</l>
+                    <l n="d">na hi puruṣaiḥ pa<lb 
+n="25"/>ra-k<choice><sic>i</sic><corr>ī</corr></choice>rtayo vilopyā iti<g type="ddanda">.</g></l>
+                </lg>
+<p>samvat <num value="89">89</num> māgha-vadi<lb 
+n="26"/>duti sā<choice><orig>s</orig><reg>ś</reg></choice>a<supplied reason="omitted">naṁ</supplied> nivartita<choice><sic>ḥ</sic><corr>ṁ</corr></choice><g type="danda">.</g> ta<supplied reason="omitted">l</supplied> likhitaṁ sāndhivigrahi<supplied reason="omitted">ka</supplied>-śrī-<persName>A<lb 
+n="27" break="no"/>rkadeve<choice><orig>ṇ</orig><reg>n</reg></choice>a</persName> Utk<choice><sic>i</sic><corr>ī</corr></choice>rṇṇañ ca sāmantāke<choice><orig>ṇ</orig><reg>n</reg></choice>a lāñchitaṁ ca vagu<supplied reason="omitted">li</supplied><lb 
+n="28"/>vaṇāsiṅghaṇa<g type="ddanda">.</g>
                   </p>
          </div>
          <div type="apparatus">
            <!--apparatus encoded as per EGD §9.1, basic elements for apparatus below-->
                <listApp><!-- one <app> for each apparatus entry -->
-                  <app loc="line"><!-- update the value of @loc.-->
-                     <lem><!-- fill in a lemma here --></lem>
-                     <rdg source="bib:"><!-- update the @source value, fill in variant reading here --></rdg>
+                  <app loc="25"><!-- update the value of @loc.-->
+                     <lem>duti</lem>
+                     <note><bibl><ptr target="bib:Sircar1961-1962_06"/></bibl> suggests reading dvitīyāyāṃ<!-- update the @source value, fill in variant reading here --></note>
                   </app>
                </listApp>
          </div>
@@ -138,14 +171,15 @@ n="28"/>
          </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
-             <p>Bibliographical references : Sircar EI34 1962 pp 233-38 Rajaguru OHRJ 6 (2-3) 1957 p97-102 ARIE 1959-1960 C62. <bibl><ptr target="bib:Acharya2014_01"/><citedRange unit="note">79</citedRange><citedRange unit="page">417</citedRange></bibl>: "(Bhauma) year 159 on the second day of the dark half of the mint of Māgha Acharya 2014 note 79 p. 417 "there is a great deal of controversy about the date opf the charter. Rajaguru deciphered it as samvat 189 of an unspecified era and opines that it was possibly referring to the Bhauma era. He fixed the date of the Bhauma era at CE 736 and calculated the date of the present grant as CE925. Sircar, on the other hand, believed that the date in question is samvat 89, which can be referred to Bhauma era. According to him the Bhauma era started in CE 831 and hence the date of the present grant is AD 919. However we have elesewhere pointed out that the date of the charter is samvat 159 of an unspecified era (Acharya, S.K. Numerals in Orissan inscriptions, SImla, 2002, p.132) and taken it as standing for the Bhauma era, the initial year of which has now been accepted by scholars as CE 736. We are therefore inclined to believe that the date of the present charter is CE 895."</p>
+             <p>Bibliographical references : Sircar EI34 1962 pp 233-38 Rajaguru OHRJ 6 (2-3) 1957 p97-102 ARIE 1959-1960 C62. <bibl><ptr target="bib:Acharya2014_01"/><citedRange unit="note">79</citedRange><citedRange unit="page">417</citedRange></bibl>: "(Bhauma) year 159 on the second day of the dark half of the month of Māgha Acharya 2014 note 79 p. 417 "there is a great deal of controversy about the date opf the charter. Rajaguru deciphered it as samvat 189 of an unspecified era and opines that it was possibly referring to the Bhauma era. He fixed the date of the Bhauma era at CE 736 and calculated the date of the present grant as CE925. Sircar, on the other hand, believed that the date in question is samvat 89, which can be referred to Bhauma era. According to him the Bhauma era started in CE 831 and hence the date of the present grant is AD 919. However we have elesewhere pointed out that the date of the charter is samvat 159 of an unspecified era (Acharya, S.K. Numerals in Orissan inscriptions, SImla, 2002, p.132) and taken it as standing for the Bhauma era, the initial year of which has now been accepted by scholars as CE 736. We are therefore inclined to believe that the date of the present charter is CE 895."</p>
              <p>Prose except the five customary stanzas ; introductory portion agrees with INSNalodbhava00002 ; the donnee had to pay the rent of 7 palas of silver apparently per annuum. The inscriptions thus records a karaśāsana</p>
+             <p>According to <bibl><ptr target="bib:Sircar1961-1962_06"/><citedRanged unit="page">235</citedRanged></bibl>, this set is important beacuse it reveals the existence of a new king of a new dynasty in Orissa about the tenth century. </p>
          </div>
         <div type="bibliography">
 	<!--bibliography encoded as per section §9.4 -->
            <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
         	<listBibl type="primary">
-				<bibl n="R"><ptr target="bib:"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+				<bibl n="S"><ptr target="bib:Sircar1961-1962_06"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
 			</listBibl>
            <listBibl type="secondary">
                <bibl><ptr target="bib:Tripathy2010_01"/><citedRange unit="item">33</citedRange><citedRange unit="page">207-208</citedRange></bibl>

@@ -83,7 +83,7 @@
             </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
-            <change who="part:amwb" when=""></change>
+            <change who="part:amwb" when="2025-01-22">Creation of the file</change>
             <!-- replace this by a line that has you as @who, that has the @date on which you finished the first basic encoding of the file, and that has the following description of what was finished on that date: "Initial encoding of the file." Then add a <change> entry for each significant change to the file. -->
         </revisionDesc>
     </teiHeader>
@@ -94,16 +94,16 @@
              <pb n="1v"/>
                          <p>
                   <lb 
-n="1"/><lb 
-n="2"/><lb 
-n="3"/><lb 
-n="4"/><lb 
-n="5"/><lb 
-n="6"/><lb 
-n="7"/><lb 
-n="8"/><lb 
-n="9"/><lb 
-n="10"/><lb 
+n="1"/>siddham khiṇḍarasigheṃ<g type="danda">.</g> śrī-narendradhavala-rājye<g type="danda">.</g> gomuṇḍa-maṇḍale<g type="danda">.</g> dharaṇimpha-vi<lb 
+n="2" break="no"/>nīsṛta<g type="danda">.</g> nāgavanśa-śambhava<g type="danda">.</g> rāṇaka-śrī-mudhavarāha<g type="danda">.</g> suta-rāṇaka-śrī-vikāra<lb 
+n="3"/><g type="danda">.</g> vikāra-suta-rāṇaka-śrī-ghoṅghakena<g type="danda">.</g> rājaputra-vigraha-śahasthena<g type="danda">.</g> rupyaka-śo<lb 
+n="4" break="no"/>padhinā<g type="danda">.</g> kraya-śāsanatvena<g type="danda">.</g> kulaputraka<g type="danda">.</g> vaṇadeva-suta<g type="danda">.</g> bhaṇḍāri-raṇiyā<lb 
+n="5"/><g type="danda">.</g> tasya śuta seḍa<g type="danda">.</g> śrī-śilābhañjadeva-krita<g type="danda">.</g> ṭhākura-konvi<g type="danda">.</g> ṭhākura<lb 
+n="6"/>Uma<choice><orig>v</orig><reg>b</reg></choice>ā<g type="danda">.</g> ḍom<choice><orig>v</orig><reg>b</reg></choice>ī<g type="danda">.</g> syobhanadagge tīrna<g type="danda">.</g> rupyaka <abbr>pla</abbr> <num>10</num> Ā<g type="danda">.</g> mā <num value="2">2</num> gu <num value="'">4</num> <lb 
+n="7"/> <g type="danda">.</g> <g type="danda">.</g> <g type="danda">.</g><lb 
+n="8"/><g type="danda">.</g> <g type="danda">.</g> <g type="danda">.</g> <lb 
+n="9"/><g type="danda">.</g> <g type="danda">.</g> <g type="danda">.</g><lb 
+n="10"/><g type="danda">.</g> <g type="danda">.</g><lb 
 n="11"/><lb 
 n="12"/><lb 
 n="13"/><lb 
@@ -142,13 +142,14 @@ n="32"/> <!-- the inscription ends with a lotus flower within a number od daṇ�
          </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
-             <p>Bibliographical references : Sircar EI28 1949-1950 p 44-50; ARSIE 1916-1917 CP11 . This charter records a krayaśāsana (line 4 and line 17) which means a "deed of purchase" and indicates acutally a sale deed. It was transacted when Narendradhavala was the king of Gomuṇḍā-maṇḍala Prose except for 6 customary verses in line 19-28 which are hopelessly defective due to the writer's inadvertance or to the considerable influence of the local pronunciation. (Acharya2014 p418)</p>
+             <p>Bibliographical references : Sircar EI28 1949-1950 p 44-50; ARSIE 1916-1917 CP11 . This charter records a <foreign>krayaśāsana</foreign> (line 4 and line 17) which means a "deed of purchase" and indicates acutally a sale deed. It was transacted when Narendradhavala was the king of Gomuṇḍā-maṇḍala Prose except for 6 customary verses in line 19-28 which are hopelessly defective due to the writer's inadvertance or to the considerable influence of the local pronunciation. (Acharya2014 p418)</p>
+             <p>Sircar EI28 : findspot unknown. Line 28 contains the maṅgalam 'let there be peace to the cow, the Brāhmaṇa and the world as well as to the king'.</p>
          </div>
         <div type="bibliography">
 	<!--bibliography encoded as per section §9.4 -->
            <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
         	<listBibl type="primary">
-				<bibl n="R"><ptr target="bib:"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+				<bibl n="S"><ptr target="bib:"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
 			</listBibl>
            <listBibl type="secondary">
                <bibl><ptr target="bib:Tripathy2010_01"/><citedRange unit="item">35</citedRange><citedRange unit="page">210-211</citedRange></bibl>
