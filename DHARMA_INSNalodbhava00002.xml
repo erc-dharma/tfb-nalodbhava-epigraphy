@@ -117,7 +117,7 @@ n="17" break="no"/><persName><choice><orig>v</orig><reg>b</reg></choice>aladeva<
 n="18" break="no"/>lila-dhārā-puraḥ sareṇa candrārka-vāyu-sthi<choice><sic>to</sic><corr>tyā</corr></choice> grāmo 'yaṁ pratipādi<lb 
 n="19" break="no"/>to 'smābhi<supplied reason="omitted">ḥ</supplied> yato bhavadbhir yadā kālā<choice><sic>tta</sic><corr>nta</corr></choice>re brā<supplied reason="omitted">hma</supplied>ṇa-puro<lb 
 n="20" break="no"/>hita-mahādevī-mahāsāmanta-śrī-sāmanta-pratī<choice><sic>dā</sic><corr>hā</corr></choice>ra rājaka-rāja<lb 
-n="21" break="no"/>putra-<persName><choice><orig>v</orig><reg>b</reg></choice>ahir-antaraṅgādīnāṁ na <choice><sic>ka</sic><corr>kai</corr></choice>ścid uparodhād dharmma-gauravā<lb 
+n="21" break="no"/>putra-<choice><orig>v</orig><reg>b</reg></choice>ahir-antaraṅgādīnāṁ na <choice><sic>ka</sic><corr>kai</corr></choice>ścid uparodhād dharmma-gauravā<lb 
 n="22" break="no"/>n na kenāpi <choice><orig>v</orig><reg>b</reg></choice>ādhā karaṇīyā <choice><sic>tanta</sic><corr>tathā ca</corr></choice> śāsanatayā paṭhyate māna<lb 
 n="23" break="no"/>vīye dharmaśāstre<g type="danda">.</g></p>
              <lg met="anuṣṭubh"><!-- best_st0023 -->      
@@ -177,7 +177,7 @@ n="34" break="no"/>vigrahi-vādhyalakeneti
                <listApp><!-- one <app> for each apparatus entry -->
                   <app loc="line"><!-- update the value of @loc.-->
                      <lem><!-- fill in a lemma here --></lem>
-                     <rdg source="bib:"><!-- update the @source value, fill in variant reading here --></rdg>
+                     <rdg source="bib:SubramoniaIyer+Tripathy1975-1976_01"><!-- update the @source value, fill in variant reading here --></rdg>
                   </app>
                </listApp>
          </div>
@@ -193,7 +193,7 @@ n="34" break="no"/>vigrahi-vādhyalakeneti
 	<!--bibliography encoded as per section §9.4 -->
            <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
         	<listBibl type="primary">
-				<bibl n="R"><ptr target="bib:"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+				<bibl n="SIT"><ptr target="bib:SubramoniaIyer+Tripathy1975-1976_01"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
 			</listBibl>
            <listBibl type="secondary">
                <bibl><ptr target="bib:Tripathy2010_01"/><citedRange unit="item">34</citedRange><citedRange unit="page">208-209</citedRange></bibl>
