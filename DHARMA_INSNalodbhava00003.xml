@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
     <teiHeader>
         <fileDesc>
@@ -91,6 +91,7 @@
       <body>
          <div type="edition" xml:lang="san-Latn"><!-- update the @xml:lang value, see EGD §7.2-->
             <!--edition encoded as per EGD §§2−7-->
+             <!-- encoding based on EI28_8 except for the imprecatory stanza I introduced the corrections -->
              <pb n="1v"/>
                          <p>
                   <lb 
@@ -99,33 +100,72 @@ n="2" break="no"/>nīsṛta<g type="danda">.</g> nāgavanśa-śambhava<g type="d
 n="3"/><g type="danda">.</g> vikāra-suta-rāṇaka-śrī-ghoṅghakena<g type="danda">.</g> rājaputra-vigraha-śahasthena<g type="danda">.</g> rupyaka-śo<lb 
 n="4" break="no"/>padhinā<g type="danda">.</g> kraya-śāsanatvena<g type="danda">.</g> kulaputraka<g type="danda">.</g> vaṇadeva-suta<g type="danda">.</g> bhaṇḍāri-raṇiyā<lb 
 n="5"/><g type="danda">.</g> tasya śuta seḍa<g type="danda">.</g> śrī-śilābhañjadeva-krita<g type="danda">.</g> ṭhākura-konvi<g type="danda">.</g> ṭhākura<lb 
-n="6"/>Uma<choice><orig>v</orig><reg>b</reg></choice>ā<g type="danda">.</g> ḍom<choice><orig>v</orig><reg>b</reg></choice>ī<g type="danda">.</g> syobhanadagge tīrna<g type="danda">.</g> rupyaka <abbr>pla</abbr> <num>10</num> Ā<g type="danda">.</g> mā <num value="2">2</num> gu <num value="'">4</num> <lb 
-n="7"/> <g type="danda">.</g> <g type="danda">.</g> <g type="danda">.</g><lb 
-n="8"/><g type="danda">.</g> <g type="danda">.</g> <g type="danda">.</g> <lb 
-n="9"/><g type="danda">.</g> <g type="danda">.</g> <g type="danda">.</g><lb 
-n="10"/><g type="danda">.</g> <g type="danda">.</g><lb 
-n="11"/><lb 
-n="12"/><lb 
-n="13"/><lb 
-n="14"/><lb 
-n="15"/><lb 
-n="16"/><lb 
-n="17"/><lb 
-n="18"/><lb 
-n="19"/><lb 
-n="20"/><lb 
-n="21"/><lb 
-n="22"/><lb 
-n="23"/><lb 
-n="24"/><lb 
-n="25"/><lb 
-n="26"/><lb 
-n="27"/><lb 
-n="28"/><lb 
-n="29"/><lb 
-n="30"/><lb 
-n="31"/><lb 
-n="32"/> <!-- the inscription ends with a lotus flower within a number od daṇḍas -->
+n="6"/>Uma<choice><orig>v</orig><reg>b</reg></choice>ā<g type="danda">.</g> ḍom<choice><orig>v</orig><reg>b</reg></choice>ī<g type="danda">.</g> syobhanadagge tīrna<g type="danda">.</g> rupyaka <abbr>pla</abbr> <num>10</num> Ā<g type="danda">.</g> mā <num value="2">2</num> gu <num value="4">4</num> <lb 
+n="7"/>taḍesvargrāma<g type="danda">.</g> catu-simā-paryaṁntayā<g type="danda">.</g> śa-saila-vana-kānanna-sameta<g type="danda">.</g> purva<lb 
+n="8" break="no"/>diśena<g type="danda">.</g> cāmpā-sāndhi-<choice><orig>v</orig><reg>b</reg></choice>ṛhada-pāthara<g type="danda">.</g> paḍum<choice><orig>v</orig><reg>b</reg></choice>ā-śāndhi<g type="danda">.</g> gāḍa Ārdhdhd-śrotri<lb 
+n="9" break="no"/>prākacheda<g type="danda">.</g> dakṣine gaḍa-prākacheda<g type="danda">.</g> paścimena vori-stupa-śāndhi<g type="danda">.</g> pa<lb 
+n="10" break="no"/>ścima-Utarena kosu<unclear>mvra</unclear>-pāthara-prākacheda<g type="danda">.</g> <choice><orig>v</orig><reg>b</reg></choice>ṛhata-parvvate<g type="danda">.</g> ga<unclear>la</unclear>
+                             <pb n="2r" break="no"/>
+                             <lb 
+n="11" break="no"/>chinā-prākacheda <g type="danda">.</g> sṛviḍā-parvvata-madhya-prākacheda<g type="danda">.</g> sṛviḍā-Uta<lb 
+n="12" break="no"/>rena<g type="danda">.</g> galachinā-pāthara-prakachedā<g type="danda">.</g> Utara-disena<g type="danda">.</g> guḍesara-pā<lb 
+n="13" break="no"/>thara-simaya<g type="danda">.</g> Utara-purvva-disena<g type="danda">.</g> viṇa-pāthara-pravvata-prākacheda<g type="danda">.</g> mā<lb 
+n="14" break="no"/>hāśāmanta-kaveṭhī<g type="danda">.</g> māhāsāmanta-AIcharā<g type="danda">.</g> suta-sonapa<g type="danda">.</g> khā<lb 
+n="15" break="no"/>ṭāvādāmaya<g type="danda">.</g> ṭhākura-<choice><orig>v</orig><reg>b</reg></choice>ahulā<g type="danda">.</g> kaḍulliṅga Etatta-sa<lb 
+n="16" break="no"/>rvva-śamnatena<g type="danda">.</g> dāyādya-maṇḍala-vibhramena<g type="danda">.</g> Aśana-ka<lb 
+n="17" break="no"/>rpaṭābhāvina<g type="danda">.</g> gāmo 'yaṁ kraya-śāsanaṁ pradata<g type="danda">.</g> Etāna vidi<lb 
+n="18" break="no"/>taya<g type="danda">.</g> bhāṭaputra-Aṁkura<g type="danda">.</g> bhāṭaputra-vāghaḍa<g type="danda">.</g> bhāṭaputra-ka<lb 
+n="19" break="no"/>Uḍḍiyā<g type="danda">.</g> bhāṭaputra-heU<g type="danda">.</g> māhā-kuḍḍapolu<g type="danda">.</g></p>
+             <lg met="anuṣṭubh" n="1"><!-- best_0160 -->
+                        <l n="a">yāvad<choice><sic>aṇḍā</sic><corr> dattā</corr></choice> bha<pb n="2v" break="no"/><lb 
+n="20" break="no"/>ved bhumi<supplied reason="omitted">ḥ</supplied><g type="danda">.</g></l>
+                        <l n="b"><choice><orig>ś</orig><reg>s</reg></choice>ama-<supplied reason="omitted">c</supplied>chedā suśobhanā<surplus>ṁ</surplus><g type="danda">.</g></l>
+                        <l n="c"><choice><sic>tāvda</sic><corr>tāvad</corr></choice> yuga-sahasrāṇi</l>
+                        <l n="d"><lb 
+n="21"/>rudra-lok<choice><sic>añ</sic><corr>e</corr></choice> ca tiṣṭhati<g type="danda">.</g></l>
+                    </lg>
+             <lg met="anuṣṭubh" n="2"><!-- best_0132_00 -->                        
+                        <l n="a">s<supplied reason="omitted">v</supplied>a-dat<supplied reason="omitted">t</supplied>āṁ para-dat<supplied reason="omitted">t</supplied>āṁ vā<g type="danda">.</g></l>
+                        <l n="b">yo hare<lb 
+n="22"/>t<choice><sic>i</sic><corr>a</corr></choice> vasundharā<supplied reason="omitted">m</supplied><g type="danda">.</g></l>
+                        <l n="c"><supplied reason="omitted">sa</supplied> viṣṭhāyāṁ kr̥mi<supplied reason="omitted">r</supplied> bh<choice><sic>u</sic><corr>ū</corr></choice>t<supplied reason="omitted">v</supplied><choice><sic>a</sic><corr>ā</corr></choice><g type="danda">.</g></l>
+                        <l n="d">pitr̥bhi<supplied reason="omitted">ḥ</supplied> <choice><orig>ś</orig><reg>s</reg></choice>aha pacyate<g type="danda">.</g></l>
+                    </lg>
+             <lg met="anuṣṭubh" n="3"><!-- best_0137 -->
+                        <l n="a"><lb 
+n="23"/>ta<choice><orig>ṭ</orig><reg>ḍ</reg></choice>ā<choice><orig>k</orig><reg>g</reg></choice>ānāṁ sahasreṇa<g type="danda">.</g></l>
+                        <l n="b">A<choice><orig>s</orig><reg>ś</reg></choice>vamedha-śatena ca<g type="danda">.</g></l>
+                        <l n="c">go-<choice><sic>ghna<lb 
+n="24" break="no"/>-sahasreṇa</sic><corr>sahasra-pradānena</corr></choice><g type="danda">.</g></l>
+                        <l n="d">bh<choice><orig>u</orig><reg>ū</reg></choice>mi-hartā na śudhyati<g type="danda">.</g></l>
+             </lg>
+             <lg met="anuṣṭubh" n="4"><!-- best_0023cd -->      
+            <l n="c">yasya yasya yadā<lb 
+n="25"/>bhūmi<supplied reason="omitted">s</supplied><surplus><g type="danda">.</g></surplus></l>
+            <l n="d">tasya tasya tadā phala<supplied reason="omitted">ṁ</supplied><g type="danda">.</g></l>
+                       </lg>
+             <lg met="anuṣṭubh" n="5"><!-- best_0064 -->
+                        <l n="a">harate hārayate bh<orig>u</orig><reg>ū</reg>mi<g type="danda">.</g></l>
+                        <l n="b"><lb 
+n="26"/>manda-<choice><orig>v</orig><reg>b</reg></choice>u<supplied reason="omitted">d</supplied>dhi<supplied reason="omitted">s</supplied> tam<choice><sic>ā</sic><corr>o</corr></choice>-vr̥ta<supplied reason="omitted">ḥ</supplied><g type="danda">.</g></l>
+                        <l n="c">sa <choice><orig>v</orig><reg>b</reg></choice>a<supplied reason="omitted">d</supplied>dho vāruṇai<supplied reason="omitted">ḥ</supplied> pāśai<supplied reason="omitted">ḥ</supplied><g type="danda">.</g></l>
+                        <l n="d"><lb 
+n="27"/>tirya-yoniṣu jāyati<g type="danda">.</g></l>
+                    </lg>
+            <lg met="anuṣṭubh" n="6"><!-- best_0004 -->
+                <l n="a"><choice><orig>A</orig><reg>Ā</reg></choice>dityo varuṇo vi<choice><sic>mnu</sic><corr>ṣṇur</corr></choice><g type="danda">.</g></l>
+                <l n="b"><choice><orig>v</orig><reg>b</reg></choice>rahmā
+                    <pb n="3r"/><lb 
+n="28"/>somo hutā<choice><orig>s</orig><reg>ś</reg></choice>ana<supplied reason="omitted">ḥ</supplied><g type="danda">.</g></l>
+                <l n="c"><choice><orig>s</orig><reg>ś</reg></choice>ūlapā<choice><orig>n</orig><reg>ṇ</reg></choice>iś tu bhagavā<choice><orig>ṁ</orig><reg>n</reg></choice><g type="danda">.</g></l>
+                <l n="d">Abhinandanti bh<choice><orig>u</orig><reg>ū</reg></choice><lb 
+n="29" break="no"/> midaṁ<g type="danda">.</g></l>
+                </lg>
+             <p>
+                 go-<choice><orig>v</orig><reg>b</reg></choice>rāhmaṇa-vi<choice><orig>s</orig><reg>ś</reg></choice>vebhya<supplied reason="omitted">ḥ</supplied> rājñ<choice><sic>ā</sic><corr>e</corr></choice> <choice><orig>s</orig><reg>ś</reg></choice>āntir bhabhavati<g type="danda">.</g> pitā<lb 
+n="30" break="no"/>moha-pātena<g type="danda">.</g> bho<choice><orig>tka</orig><reg>kta</reg></choice>vyaṁ<g type="danda">.</g> deśa-maryādayā<g type="danda">.</g> niUnākṣaram a<lb 
+n="31" break="no"/>vaṇik<surplus>a</surplus>-pāṇḍi<g type="danda">.</g> suta-padmanābha<g type="danda">.</g> śāsana Udagirītam iti<lb 
+n="32"/> <g type="danda">.</g> <g type="danda">.</g><!-- the inscription ends with a lotus flower within a number od daṇḍas -->
                   </p>
          </div>
          <div type="apparatus">
@@ -133,7 +173,7 @@ n="32"/> <!-- the inscription ends with a lotus flower within a number od daṇ�
                <listApp><!-- one <app> for each apparatus entry -->
                   <app loc="line"><!-- update the value of @loc.-->
                      <lem><!-- fill in a lemma here --></lem>
-                     <rdg source="bib:"><!-- update the @source value, fill in variant reading here --></rdg>
+                     <rdg source="bib:Sircar1949-1950_12"><!-- update the @source value, fill in variant reading here --></rdg>
                   </app>
                </listApp>
          </div>
@@ -149,7 +189,7 @@ n="32"/> <!-- the inscription ends with a lotus flower within a number od daṇ�
 	<!--bibliography encoded as per section §9.4 -->
            <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
         	<listBibl type="primary">
-				<bibl n="S"><ptr target="bib:"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+				<bibl n="S"><ptr target="bib:Sircar1949-1950_12"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
 			</listBibl>
            <listBibl type="secondary">
                <bibl><ptr target="bib:Tripathy2010_01"/><citedRange unit="item">35</citedRange><citedRange unit="page">210-211</citedRange></bibl>
